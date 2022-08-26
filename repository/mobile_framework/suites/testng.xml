@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Scenarios">
+	<listeners>
+		<listener class-name="listeners.CustomizedEmailableReport" />
+	</listeners>
+	<parameter name="app"
+		value="Zokudo_V_1.5_Time_281221-1833-debug.apk" />
+	<parameter name="device" value="emulator-5554" />
+	<test thread-count="5" name="Login Tests">
+		<classes>
+			<class name="mobile.android.testCases.TestcaseSet1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

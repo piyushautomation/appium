@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="FrameworkDemo.Listener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="FrameworkDemo.AboutAutomateTest"/>
+      <class name="FrameworkDemo.FlowTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="FrameworkDemo.AboutAutomateTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="failAboutAutomateExist"/>
+        </methods>
+      </class> <!-- FrameworkDemo.AboutAutomateTest -->
+      <class name="FrameworkDemo.FlowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="verifyThemeChange"/>
+        </methods>
+      </class> <!-- FrameworkDemo.FlowTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

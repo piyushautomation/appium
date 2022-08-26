@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Login Scenarios]" guice-stage="DEVELOPMENT">
+  <parameter name="app" value="com.llamalab.automate_199_apps.evozi.com.apk"/>
+  <parameter name="device" value="emulator-5554"/>
+  <test thread-count="5" name="Login Tests">
+    <classes>
+      <class name="mobile.android.testCases.AppTestcase"/>
+    </classes>
+  </test> <!-- Login Tests -->
+</suite> <!-- Failed suite [Login Scenarios] -->

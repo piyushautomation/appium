@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T12:26:48Z" name="Suite" finished-at="2022-08-25T12:28:27Z" duration-ms="99135">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T12:26:48Z" name="Test" finished-at="2022-08-25T12:28:27Z" duration-ms="99135">
+      <class name="FrameworkDemo.AboutAutomateTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:56:48Z" name="initialize" finished-at="2022-08-25T17:56:56Z" duration-ms="7403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="failAboutAutomateExist()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:56:56Z" name="failAboutAutomateExist" description="Verify Automate Verison Fails." finished-at="2022-08-25T17:57:26Z" duration-ms="30779" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Automation version not visible. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Automation version not visible. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at FrameworkDemo.AboutAutomateTest.failAboutAutomateExist(AboutAutomateTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failAboutAutomateExist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:57:27Z" name="tearDown" finished-at="2022-08-25T17:57:27Z" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failAboutAutomateExist status=FAILURE method=AboutAutomateTest.failAboutAutomateExist()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:57:27Z" name="initialize" finished-at="2022-08-25T17:57:34Z" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyAboutAutomateExist()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:57:34Z" name="verifyAboutAutomateExist" description="Verify Automate Version." finished-at="2022-08-25T17:58:06Z" duration-ms="31520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutAutomateExist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03]" started-at="2022-08-25T17:58:06Z" name="tearDown" finished-at="2022-08-25T17:58:06Z" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAboutAutomateExist status=SUCCESS method=AboutAutomateTest.verifyAboutAutomateExist()[pri:0, instance:FrameworkDemo.AboutAutomateTest@12d2ce03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameworkDemo.AboutAutomateTest -->
+      <class name="FrameworkDemo.FlowTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:06Z" name="initialize" finished-at="2022-08-25T17:58:13Z" duration-ms="7170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyHelpTest()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:13Z" name="verifyHelpTest" description="Verify context under Help." finished-at="2022-08-25T17:58:17Z" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:17Z" name="tearDown" finished-at="2022-08-25T17:58:17Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpTest status=SUCCESS method=FlowTest.verifyHelpTest()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:17Z" name="initialize" finished-at="2022-08-25T17:58:24Z" duration-ms="6739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyThemeChange()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:24Z" name="verifyThemeChange" description="Verify theme is changed to Dark." finished-at="2022-08-25T17:58:27Z" duration-ms="2738" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unbale to select Theme]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unbale to select Theme
+	at pageObjects.SideoptionPage.selectTheme(SideoptionPage.java:58)
+	at FrameworkDemo.FlowTest.verifyThemeChange(FlowTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThemeChange -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f]" started-at="2022-08-25T17:58:27Z" name="tearDown" finished-at="2022-08-25T17:58:27Z" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThemeChange status=FAILURE method=FlowTest.verifyThemeChange()[pri:0, instance:FrameworkDemo.FlowTest@7e5c856f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameworkDemo.FlowTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

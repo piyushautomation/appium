@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<FrameworkConfiguration>
+	<Configuration>
+		<ImplicitTimeout>60</ImplicitTimeout>
+		<TestIdRegex>(TC_[\w_]+_\d+)</TestIdRegex>
+		<TestAuthorRegex>(Author:\s*\w+\s\w+)</TestAuthorRegex>
+	</Configuration>
+
+<!-- 	<MasterType>browser</MasterType> -->
+	<MasterType>app</MasterType>
+
+	<Master>
+		<RecordVideoOfTestExecution>false</RecordVideoOfTestExecution>
+		<Hub>127.0.0.1</Hub>
+		<Port>4445</Port>
+		<incognito>false</incognito>
+		<packageName>com.llamalab.automate</packageName>
+		<appWaitActivity>com.llamalab.automate</appWaitActivity>
+	</Master>
+
+</FrameworkConfiguration>
